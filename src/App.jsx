@@ -38,7 +38,7 @@ let App = () => {
                 navbarScroll
               >
                 <Nav.Link href="/Home">Home</Nav.Link>
-                <Nav.Link href="./Cartpage">Cart</Nav.Link>
+                <Link className="nav-link"to={"./Cartpage"}>Cart</Link>
                 <NavDropdown title="Login" id="navbarScrollingDropdown">
                   <NavDropdown.Item href="#Your Orders">
                     Your Orders
@@ -51,7 +51,7 @@ let App = () => {
                     Change Your Address
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href="/Contactus">Contact Us</Nav.Link>
+                <Link className="nav-link"to={"/Contactus"}>Contact Us</Link>
               </Nav>
               <Form className="d-flex">
                 <Form.Control
