@@ -1,0 +1,22 @@
+.navbar{
+    background-color: #ffccaa;
+}
+h1{
+    display:flex;
+    color: rgb(230, 14, 14);
+    justify-content: center;
+    margin: 30px;
+
+}
+.carousel-item img {
+    object-fit: cover;
+    width:650px;
+    height:500px;
+}
+.alignbutton{
+    text-align: center;
+}
+.cotactusedit{
+    color: rgb(244, 10, 10);
+}
+
