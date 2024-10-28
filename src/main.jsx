@@ -8,7 +8,7 @@ import Home from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Contact from "./Contactus.jsx";
 import ProductDetails from "./ProductDetails.jsx";
-import CartPage from "./Cartpage.jsx";
+import CartPage from ".CartPage.jsx";
 
 const router = createBrowserRouter([
   {
