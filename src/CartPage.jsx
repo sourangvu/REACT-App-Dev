@@ -2,7 +2,9 @@ import React from 'react'
 
 function Cartpage() {
   return (
-    <h1>Cartpage</h1>
+    <div>
+      <h1>Cart</h1>
+      </div>
   )
 }
 
